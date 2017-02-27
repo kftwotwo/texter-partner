@@ -1,20 +1,11 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/Desktop/texter/spec/models/message_spec.rb": [
+      "/Users/Guest/Desktop/texter/spec/models/contact_spec.rb": [
         1,
         null,
         1,
         1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
         null
       ],
       "/Users/Guest/Desktop/texter/spec/rails_helper.rb": [
@@ -24,6 +15,8 @@
         1,
         1,
         1,
+        1,
+        null,
         null,
         1,
         null,
@@ -317,6 +310,10 @@
         1,
         null
       ],
+      "/Users/Guest/Desktop/texter/app/models/contact.rb": [
+        1,
+        null
+      ],
       "/Users/Guest/Desktop/texter/app/models/message.rb": [
         1,
         1,
@@ -341,7 +338,9 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/texter/spec/factories.rb": [
+      "/Users/Guest/Desktop/texter/spec/factories/contacts.rb": [
+        1,
+        1,
         null,
         null,
         null
@@ -350,8 +349,29 @@
         1,
         1,
         null
+      ],
+      "/Users/Guest/Desktop/texter/spec/support/factory_girl.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/Guest/Desktop/texter/spec/models/message_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
       ]
     },
-    "timestamp": 1488217806
+    "timestamp": 1488220707
   }
 }

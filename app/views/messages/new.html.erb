@@ -4,10 +4,10 @@
 
 <%= form_for @message do |f| %>
   <%= f.label :to %>
-  <%= f.text_field :to %>
+  <%= f.text_field :to, class: 'form-control'%>
   <%= f.label :from %>
-  <%= f.text_field :from %>
+  <%= f.text_field :from, class: 'form-control' %>
   <%= f.label :body %>
-  <%= f.text_field :body %>
-  <%= f.submit %>
+  <%= f.text_field :body, class: 'form-control' %>
+  <%= f.submit class: 'btn btn-success' %>
 <% end %>

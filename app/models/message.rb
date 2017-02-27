@@ -1,7 +1,6 @@
 class Message < ActiveRecord::Base
-  before_create :send_sms
+  # before_create :send_sms
 
-  private
   begin
     def send_sms
       response = RestClient::Request.new(

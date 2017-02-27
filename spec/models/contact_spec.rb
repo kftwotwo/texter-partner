@@ -1,5 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe Contact, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+describe Contact do
+  it { should have_db_column :name }
+  it { should have_db_column :number }
 end

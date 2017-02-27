@@ -8,18 +8,29 @@ class MessagesController < ApplicationController
     @message = Message.new(to: params[:number])
   end
 
+  # def create
+  #     @message = Message.new(message_params)
+  #     if @message.save
+  #       flash[:notice] = "Your message was sent!"
+  #       redirect_to messages_path
+  #     else
+  #       render :new
+  #     end
+  # end
+
   def create
     params['message']['to'].split(",").each do |number|
       @message = Message.new(:to => number, :from =>message_params['from'], :body => message_params['body'])
       @message.send_sms
-      @message.save
+      if @message.save
+        flash[:notice] = "Your message was sent!"
+      else
+        render :new
+      end
+
     end
-    if @message.save
-      flash[:notice] = "Your message was sent!"
-      redirect_to messages_path
-    else
-      render :new
-    end
+    flash[:notice] = "Your message was sent!"
+    redirect_to messages_path
   end
 
   def show

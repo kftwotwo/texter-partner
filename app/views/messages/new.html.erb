@@ -1,7 +1,9 @@
 <h1>New message</h1>
 
 <%= render "layouts/errors", :object => @message %>
-
+<p>
+  If sending to more than one number. Please seperate by commas.
+</p>
 <%= form_for @message do |f| %>
   <%= f.label :to %>
   <%= f.text_field :to, class: 'form-control'%>

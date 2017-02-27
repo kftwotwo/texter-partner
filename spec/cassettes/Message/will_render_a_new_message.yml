@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.twilio.com/2010-04-01/Accounts/AC7b8734666478b48284385f74d67e6610/Messages.json
+    body:
+      encoding: UTF-8
+      string: Body=&From=0123456789&To=9876543210
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.1 (darwin15.4.0 x86_64) ruby/2.3.1p112
+      Content-Length:
+      - '35'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Host:
+      - api.twilio.com
+      Authorization:
+      - Basic QUM3Yjg3MzQ2NjY0NzhiNDgyODQzODVmNzRkNjdlNjYxMDpjMGYxMTg1ZGEwNDZkOTMzNjIzYWE5YzE3M2Y0YTljZQ==
+  response:
+    status:
+      code: 400
+      message: BAD REQUEST
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match,
+        If-Unmodified-Since
+      Access-Control-Allow-Methods:
+      - GET, POST, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - ETag
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 27 Feb 2017 23:47:10 GMT
+      Twilio-Request-Duration:
+      - '0.115'
+      Twilio-Request-Id:
+      - RQ993db55e6adf4ea7a270e33ec0e8acd4
+      X-Powered-By:
+      - AT-5000
+      X-Shenanigans:
+      - none
+      Content-Length:
+      - '197'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"code": 21212, "message": "The ''From'' number 0123456789 is not a
+        valid phone number, shortcode, or alphanumeric sender ID.", "more_info": "https://www.twilio.com/docs/errors/21212",
+        "status": 400}'
+    http_version: 
+  recorded_at: Mon, 27 Feb 2017 23:47:10 GMT
+recorded_with: VCR 3.0.3

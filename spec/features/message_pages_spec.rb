@@ -12,6 +12,14 @@ describe Message, :vcr => true do
     expect(page).to have_content('Your message was sent!')
   end
 
+  it "will render a new message" do
+    visit new_message_path
+    fill_in :To, :with => '9876543210'
+    fill_in :From, :with => '0123456789'
+    click_on "Create Message"
+    expect(page).to have_content(:new)
+  end
+
   it "will sent to multiple numbers" do
     visit new_message_path
     fill_in :To, :with => '9876543210,1234958193,7727013776'

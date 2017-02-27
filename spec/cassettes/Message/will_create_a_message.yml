@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.twilio.com/2010-04-01/Accounts/AC7b8734666478b48284385f74d67e6610/Messages.json
+    body:
+      encoding: UTF-8
+      string: Body=TESTING+IN+PROGRESS&From=5415086597%2C6617948193%2C9717033776&To=6617948193
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.1 (darwin15.4.0 x86_64) ruby/2.3.1p112
+      Content-Length:
+      - '80'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Host:
+      - api.twilio.com
+      Authorization:
+      - Basic QUM3Yjg3MzQ2NjY0NzhiNDgyODQzODVmNzRkNjdlNjYxMDpjMGYxMTg1ZGEwNDZkOTMzNjIzYWE5YzE3M2Y0YTljZQ==
+  response:
+    status:
+      code: 400
+      message: BAD REQUEST
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match,
+        If-Unmodified-Since
+      Access-Control-Allow-Methods:
+      - GET, POST, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - ETag
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 27 Feb 2017 23:14:56 GMT
+      Twilio-Request-Duration:
+      - '0.126'
+      Twilio-Request-Id:
+      - RQ1776f07ef665410181a832ad265efc22
+      X-Powered-By:
+      - AT-5000
+      X-Shenanigans:
+      - none
+      Content-Length:
+      - '219'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"code": 21212, "message": "The ''From'' number 5415086597,6617948193,9717033776
+        is not a valid phone number, shortcode, or alphanumeric sender ID.", "more_info":
+        "https://www.twilio.com/docs/errors/21212", "status": 400}'
+    http_version: 
+  recorded_at: Mon, 27 Feb 2017 23:14:56 GMT
+recorded_with: VCR 3.0.3

@@ -1,6 +1,9 @@
 require 'rails_helper'
 
 describe Message, :vcr => true do
+  it { should have_db_column :body }
+  it { should have_db_column :to }
+  it { should have_db_column :from }
   it "doesn't save the message if twilio gives an error" do
     message = Message.new(:body => 'hi', :to => '1111111', :from => '5039463641')
     expect(message.send_sms).to eq false

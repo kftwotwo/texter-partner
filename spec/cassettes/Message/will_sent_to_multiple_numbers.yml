@@ -1,0 +1,207 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.twilio.com/2010-04-01/Accounts/AC7b8734666478b48284385f74d67e6610/Messages.json
+    body:
+      encoding: UTF-8
+      string: Body=TESTING+IN+PROGRESS&From=4582022277&To=5415086597
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.1 (darwin15.4.0 x86_64) ruby/2.3.1p112
+      Content-Length:
+      - '54'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Host:
+      - api.twilio.com
+      Authorization:
+      - Basic QUM3Yjg3MzQ2NjY0NzhiNDgyODQzODVmNzRkNjdlNjYxMDpjMGYxMTg1ZGEwNDZkOTMzNjIzYWE5YzE3M2Y0YTljZQ==
+  response:
+    status:
+      code: 201
+      message: CREATED
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match,
+        If-Unmodified-Since
+      Access-Control-Allow-Methods:
+      - GET, POST, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - ETag
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 27 Feb 2017 23:19:10 GMT
+      Strict-Transport-Security:
+      - max-age=15768000
+      Twilio-Request-Duration:
+      - '0.265'
+      Twilio-Request-Id:
+      - RQ6ecfad5c0bf74eee9e27b393690bd712
+      X-Powered-By:
+      - AT-5000
+      X-Shenanigans:
+      - none
+      Content-Length:
+      - '821'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"sid": "SM7a828d3bc7ba4a8993974c035bd51015", "date_created": "Mon,
+        27 Feb 2017 23:19:10 +0000", "date_updated": "Mon, 27 Feb 2017 23:19:10 +0000",
+        "date_sent": null, "account_sid": "AC7b8734666478b48284385f74d67e6610", "to":
+        "+15415086597", "from": "+14582022277", "messaging_service_sid": null, "body":
+        "Sent from your Twilio trial account - TESTING IN PROGRESS", "status": "queued",
+        "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version":
+        "2010-04-01", "price": null, "price_unit": "USD", "error_code": null, "error_message":
+        null, "uri": "/2010-04-01/Accounts/AC7b8734666478b48284385f74d67e6610/Messages/SM7a828d3bc7ba4a8993974c035bd51015.json",
+        "subresource_uris": {"media": "/2010-04-01/Accounts/AC7b8734666478b48284385f74d67e6610/Messages/SM7a828d3bc7ba4a8993974c035bd51015/Media.json"}}'
+    http_version: 
+  recorded_at: Mon, 27 Feb 2017 23:19:10 GMT
+- request:
+    method: post
+    uri: https://api.twilio.com/2010-04-01/Accounts/AC7b8734666478b48284385f74d67e6610/Messages.json
+    body:
+      encoding: UTF-8
+      string: Body=TESTING+IN+PROGRESS&From=4582022277&To=6617948193
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.1 (darwin15.4.0 x86_64) ruby/2.3.1p112
+      Content-Length:
+      - '54'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Host:
+      - api.twilio.com
+      Authorization:
+      - Basic QUM3Yjg3MzQ2NjY0NzhiNDgyODQzODVmNzRkNjdlNjYxMDpjMGYxMTg1ZGEwNDZkOTMzNjIzYWE5YzE3M2Y0YTljZQ==
+  response:
+    status:
+      code: 201
+      message: CREATED
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match,
+        If-Unmodified-Since
+      Access-Control-Allow-Methods:
+      - GET, POST, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - ETag
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 27 Feb 2017 23:19:10 GMT
+      Strict-Transport-Security:
+      - max-age=15768000
+      Twilio-Request-Duration:
+      - '0.242'
+      Twilio-Request-Id:
+      - RQa5b66f0daadb4560bbaa4d0a8ba5ce47
+      X-Powered-By:
+      - AT-5000
+      X-Shenanigans:
+      - none
+      Content-Length:
+      - '821'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"sid": "SMed353b9406864bc5bfb22582d37ce38c", "date_created": "Mon,
+        27 Feb 2017 23:19:10 +0000", "date_updated": "Mon, 27 Feb 2017 23:19:10 +0000",
+        "date_sent": null, "account_sid": "AC7b8734666478b48284385f74d67e6610", "to":
+        "+16617948193", "from": "+14582022277", "messaging_service_sid": null, "body":
+        "Sent from your Twilio trial account - TESTING IN PROGRESS", "status": "queued",
+        "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version":
+        "2010-04-01", "price": null, "price_unit": "USD", "error_code": null, "error_message":
+        null, "uri": "/2010-04-01/Accounts/AC7b8734666478b48284385f74d67e6610/Messages/SMed353b9406864bc5bfb22582d37ce38c.json",
+        "subresource_uris": {"media": "/2010-04-01/Accounts/AC7b8734666478b48284385f74d67e6610/Messages/SMed353b9406864bc5bfb22582d37ce38c/Media.json"}}'
+    http_version: 
+  recorded_at: Mon, 27 Feb 2017 23:19:10 GMT
+- request:
+    method: post
+    uri: https://api.twilio.com/2010-04-01/Accounts/AC7b8734666478b48284385f74d67e6610/Messages.json
+    body:
+      encoding: UTF-8
+      string: Body=TESTING+IN+PROGRESS&From=4582022277&To=9717033776
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.1 (darwin15.4.0 x86_64) ruby/2.3.1p112
+      Content-Length:
+      - '54'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Host:
+      - api.twilio.com
+      Authorization:
+      - Basic QUM3Yjg3MzQ2NjY0NzhiNDgyODQzODVmNzRkNjdlNjYxMDpjMGYxMTg1ZGEwNDZkOTMzNjIzYWE5YzE3M2Y0YTljZQ==
+  response:
+    status:
+      code: 201
+      message: CREATED
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match,
+        If-Unmodified-Since
+      Access-Control-Allow-Methods:
+      - GET, POST, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - ETag
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 27 Feb 2017 23:19:11 GMT
+      Strict-Transport-Security:
+      - max-age=15768000
+      Twilio-Request-Duration:
+      - '0.232'
+      Twilio-Request-Id:
+      - RQ8d5489dbfc82459eb9ba15bfd4692574
+      X-Powered-By:
+      - AT-5000
+      X-Shenanigans:
+      - none
+      Content-Length:
+      - '821'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"sid": "SM0dba87cd3b174ca2be6a44408111b2f0", "date_created": "Mon,
+        27 Feb 2017 23:19:11 +0000", "date_updated": "Mon, 27 Feb 2017 23:19:11 +0000",
+        "date_sent": null, "account_sid": "AC7b8734666478b48284385f74d67e6610", "to":
+        "+19717033776", "from": "+14582022277", "messaging_service_sid": null, "body":
+        "Sent from your Twilio trial account - TESTING IN PROGRESS", "status": "queued",
+        "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version":
+        "2010-04-01", "price": null, "price_unit": "USD", "error_code": null, "error_message":
+        null, "uri": "/2010-04-01/Accounts/AC7b8734666478b48284385f74d67e6610/Messages/SM0dba87cd3b174ca2be6a44408111b2f0.json",
+        "subresource_uris": {"media": "/2010-04-01/Accounts/AC7b8734666478b48284385f74d67e6610/Messages/SM0dba87cd3b174ca2be6a44408111b2f0/Media.json"}}'
+    http_version: 
+  recorded_at: Mon, 27 Feb 2017 23:19:11 GMT
+recorded_with: VCR 3.0.3

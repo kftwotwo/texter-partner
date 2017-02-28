@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/Desktop/texter/spec/features/contacts_pages_spec.rb": [
+      "/Users/Guest/Desktop/texter-partner/spec/features/contacts_pages_spec.rb": [
         1,
         null,
         1,
@@ -59,7 +59,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/texter/spec/rails_helper.rb": [
+      "/Users/Guest/Desktop/texter-partner/spec/rails_helper.rb": [
         1,
         1,
         1,
@@ -91,14 +91,14 @@
         1,
         null
       ],
-      "/Users/Guest/Desktop/texter/config/environment.rb": [
+      "/Users/Guest/Desktop/texter-partner/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/texter/config/application.rb": [
+      "/Users/Guest/Desktop/texter-partner/config/application.rb": [
         1,
         null,
         1,
@@ -125,12 +125,12 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/texter/config/boot.rb": [
+      "/Users/Guest/Desktop/texter-partner/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/Guest/Desktop/texter/config/spring.rb": [
+      "/Users/Guest/Desktop/texter-partner/config/spring.rb": [
         null,
         null,
         null,
@@ -138,7 +138,7 @@
         null,
         5
       ],
-      "/Users/Guest/Desktop/texter/config/environments/test.rb": [
+      "/Users/Guest/Desktop/texter-partner/config/environments/test.rb": [
         1,
         null,
         null,
@@ -182,7 +182,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/texter/config/initializers/application_controller_renderer.rb": [
+      "/Users/Guest/Desktop/texter-partner/config/initializers/application_controller_renderer.rb": [
         null,
         null,
         null,
@@ -190,7 +190,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/texter/config/initializers/assets.rb": [
+      "/Users/Guest/Desktop/texter-partner/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -203,7 +203,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/texter/config/initializers/backtrace_silencers.rb": [
+      "/Users/Guest/Desktop/texter-partner/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -212,20 +212,20 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/texter/config/initializers/cookies_serializer.rb": [
+      "/Users/Guest/Desktop/texter-partner/config/initializers/cookies_serializer.rb": [
         null,
         null,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/texter/config/initializers/filter_parameter_logging.rb": [
+      "/Users/Guest/Desktop/texter-partner/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/texter/config/initializers/inflections.rb": [
+      "/Users/Guest/Desktop/texter-partner/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -243,13 +243,13 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/texter/config/initializers/mime_types.rb": [
+      "/Users/Guest/Desktop/texter-partner/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/Guest/Desktop/texter/config/initializers/new_framework_defaults.rb": [
+      "/Users/Guest/Desktop/texter-partner/config/initializers/new_framework_defaults.rb": [
         null,
         null,
         null,
@@ -275,12 +275,12 @@
         null,
         1
       ],
-      "/Users/Guest/Desktop/texter/config/initializers/session_store.rb": [
+      "/Users/Guest/Desktop/texter-partner/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/texter/config/initializers/wrap_parameters.rb": [
+      "/Users/Guest/Desktop/texter-partner/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -296,32 +296,32 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/texter/app/channels/application_cable/channel.rb": [
+      "/Users/Guest/Desktop/texter-partner/app/channels/application_cable/channel.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/Guest/Desktop/texter/app/channels/application_cable/connection.rb": [
+      "/Users/Guest/Desktop/texter-partner/app/channels/application_cable/connection.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/Guest/Desktop/texter/app/controllers/application_controller.rb": [
+      "/Users/Guest/Desktop/texter-partner/app/controllers/application_controller.rb": [
         1,
         1,
         null
       ],
-      "/Users/Guest/Desktop/texter/app/helpers/application_helper.rb": [
+      "/Users/Guest/Desktop/texter-partner/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/Guest/Desktop/texter/app/helpers/contacts_helper.rb": [
+      "/Users/Guest/Desktop/texter-partner/app/helpers/contacts_helper.rb": [
         1,
         null
       ],
-      "/Users/Guest/Desktop/texter/app/controllers/contacts_controller.rb": [
+      "/Users/Guest/Desktop/texter-partner/app/controllers/contacts_controller.rb": [
         1,
         1,
         5,
@@ -373,14 +373,14 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/texter/app/controllers/home_controller.rb": [
+      "/Users/Guest/Desktop/texter-partner/app/controllers/home_controller.rb": [
         1,
         1,
         null,
         null,
         null
       ],
-      "/Users/Guest/Desktop/texter/app/controllers/messages_controller.rb": [
+      "/Users/Guest/Desktop/texter-partner/app/controllers/messages_controller.rb": [
         1,
         1,
         4,
@@ -417,26 +417,26 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/texter/app/jobs/application_job.rb": [
+      "/Users/Guest/Desktop/texter-partner/app/jobs/application_job.rb": [
         1,
         null
       ],
-      "/Users/Guest/Desktop/texter/app/mailers/application_mailer.rb": [
+      "/Users/Guest/Desktop/texter-partner/app/mailers/application_mailer.rb": [
         1,
-        1,
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/texter/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/Users/Guest/Desktop/texter/app/models/contact.rb": [
+      "/Users/Guest/Desktop/texter-partner/app/models/application_record.rb": [
+        1,
         1,
         null
       ],
-      "/Users/Guest/Desktop/texter/app/models/message.rb": [
+      "/Users/Guest/Desktop/texter-partner/app/models/contact.rb": [
+        1,
+        null
+      ],
+      "/Users/Guest/Desktop/texter-partner/app/models/message.rb": [
         1,
         null,
         null,
@@ -459,7 +459,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/texter/spec/factories/contacts.rb": [
+      "/Users/Guest/Desktop/texter-partner/spec/factories/contacts.rb": [
         1,
         1,
         1,
@@ -467,59 +467,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/texter/spec/factories/messages.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/texter/config/routes.rb": [
-        1,
-        1,
-        1,
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/texter/spec/support/factory_girl.rb": [
-        1,
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/texter/spec/features/message_pages_spec.rb": [
-        1,
-        null,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
+      "/Users/Guest/Desktop/texter-partner/spec/factories/messages.rb": [
         1,
         1,
         1,
@@ -528,7 +476,59 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/texter/spec/models/contact_spec.rb": [
+      "/Users/Guest/Desktop/texter-partner/config/routes.rb": [
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/Guest/Desktop/texter-partner/spec/support/factory_girl.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/Guest/Desktop/texter-partner/spec/features/message_pages_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/texter-partner/spec/models/contact_spec.rb": [
         1,
         null,
         1,
@@ -536,7 +536,7 @@
         2,
         null
       ],
-      "/Users/Guest/Desktop/texter/spec/models/message_spec.rb": [
+      "/Users/Guest/Desktop/texter-partner/spec/models/message_spec.rb": [
         1,
         null,
         1,
@@ -557,6 +557,6 @@
         null
       ]
     },
-    "timestamp": 1488239317
+    "timestamp": 1488298625
   }
 }

@@ -16,7 +16,7 @@ $ bundle install
 $ rails db:create
 $ rails db:migrate
 $ rails db:test:prepare
-$ rails
+$ rails server
 ```
 URL: localhost:3000
 ## Known Bugs
@@ -33,7 +33,7 @@ Linkedin: [Kevin Finley](https://www.linkedin.com/in/kftwotwo/)
 
 _*Margie Nevarez*_<br>
 Github: [margie-ynm](https://www.github.com/margie-ynm)<br>
-Linkedin: [margie-ynm](https://www.linkedin.com/in/margienev/)
+Linkedin: [Margie Nevarez](https://www.linkedin.com/in/margienev/)
 
 
 ## Contribute
